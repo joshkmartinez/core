@@ -2,8 +2,8 @@
   "name": "Iron man arch reactor",
   "alias": ["core", "iron", "ironMan", "archReactor"],
   "version": 2,
-  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
-  "routes": [{ "src": "/(.*)", "dest": "index.js" }],
+  "builds": [{ "src": "server.js", "use": "@now/node-server" }],
+  "routes": [{ "src": "/(.*)", "dest": "server.js" }],
   "github": {
     "silent": true
   }
