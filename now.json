@@ -1,0 +1,9 @@
+{
+  "name": "Iron man arch reactor",
+  "alias": ["core", "iron", "ironMan", "archReactor"],
+  "version": 2,
+  "builds": [{ "src": "server.js", "use": "@now/node" }],
+  "github": {
+    "silent": true
+  }
+}
